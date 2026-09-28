@@ -1,225 +1,200 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dark Souls 1 Run - Deathless Sub 2:30</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dark Souls 1 Run</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div class="container">
-        <!-- Header -->
-        <header class="header">
-            <div class="firekeeper-flame"></div>
-            <h1>Dark Souls 1 Run</h1>
-            <p class="subtitle">Deathless Speedrun - Sub 2:30</p>
-            <p class="eslogan">Praise the Sun ☀️</p>
-        </header>
+  <div class="fire-glow"></div>
 
-        <!-- Navigation -->
-        <nav class="nav">
-            <button class="nav-btn active" data-section="inicio">Inicio</button>
-            <button class="nav-btn" data-section="build">Build</button>
-            <button class="nav-btn" data-section="compras">Compras</button>
-            <button class="nav-btn" data-section="trucos">Trucos</button>
-            <button class="nav-btn" data-section="cronologia">Cronología</button>
-        </nav>
+  <div class="container">
+    <header class="header">
+      <div class="banner-mark">Lordran</div>
+      <div class="header-content">
+        <div class="solaire-silhouette">
+          <svg viewBox="0 0 100 120" xmlns="http://www.w3.org/2000/svg">
+            <!-- Cabeza -->
+            <circle cx="50" cy="20" r="12" fill="#d8b46a" opacity="0.8"/>
+            <!-- Casco con símbolo sol -->
+            <path d="M 40 15 Q 50 8 60 15 L 58 12 Q 50 6 42 12 Z" fill="#d8b46a" opacity="0.7"/>
+            <circle cx="50" cy="18" r="2" fill="#ffb066"/>
+            <!-- Cuerpo -->
+            <rect x="45" y="32" width="10" height="25" fill="#d8b46a" opacity="0.75" rx="2"/>
+            <!-- Brazo izquierdo levantado (pose de invocación) -->
+            <path d="M 45 36 Q 30 25 25 15" stroke="#d8b46a" stroke-width="3" fill="none" opacity="0.8" stroke-linecap="round"/>
+            <!-- Mano izquierda levantada con brillo -->
+            <circle cx="25" cy="15" r="3" fill="#ffb066" opacity="0.9"/>
+            <circle cx="25" cy="15" r="5" fill="#ffb066" opacity="0.3"/>
+            <!-- Brazo derecho -->
+            <path d="M 55 36 Q 65 32 70 40" stroke="#d8b46a" stroke-width="3" fill="none" opacity="0.8" stroke-linecap="round"/>
+            <!-- Piernas -->
+            <rect x="46" y="57" width="4" height="20" fill="#d8b46a" opacity="0.75" rx="1"/>
+            <rect x="50" y="57" width="4" height="20" fill="#d8b46a" opacity="0.75" rx="1"/>
+            <!-- Pies -->
+            <ellipse cx="48" cy="78" rx="3" ry="2" fill="#d8b46a" opacity="0.7"/>
+            <ellipse cx="52" cy="78" rx="3" ry="2" fill="#d8b46a" opacity="0.7"/>
+            <!-- Aura de luz alrededor -->
+            <circle cx="50" cy="50" r="35" fill="none" stroke="#ffb066" stroke-width="1" opacity="0.2"/>
+            <circle cx="50" cy="50" r="40" fill="none" stroke="#ffb066" stroke-width="0.5" opacity="0.15"/>
+          </svg>
+        </div>
+        <h1>Dark Souls 1 Run</h1>
+      </div>
+      <p class="subtitle">Deathless Speedrun • Sub 2:30</p>
+      <p class="quote">Praise the Sun ☀️</p>
+    </header>
 
-        <!-- Main Content -->
-        <main class="content">
-            <!-- Sección: Inicio -->
-            <section id="inicio" class="section active">
-                <h2>Bienvenido a Lordran</h2>
-                <p>Esta es tu guía completa para completar Dark Souls 1 sin morir en menos de 2 minutos y 30 segundos.</p>
-                <div class="info-box">
-                    <h3>📋 Información de la Run</h3>
-                    <ul>
-                        <li><strong>Clase Inicial:</strong> Guerrero (Warrior)</li>
-                        <li><strong>Regalo:</strong> Llave Maestra (Master Key)</li>
-                        <li><strong>Arma Principal:</strong> Espada del Rey del Cementerio</li>
-                        <li><strong>Arma Secundaria:</strong> Arco Largo +10</li>
-                        <li><strong>Objetivo:</strong> Deathless Sub 2:30</li>
-                    </ul>
-                </div>
-            </section>
+    <nav class="nav" aria-label="Navegación">
+      <button class="nav-btn active" data-target="inicio">Inicio</button>
+      <button class="nav-btn" data-target="build">Build</button>
+      <button class="nav-btn" data-target="compras">Compras</button>
+      <button class="nav-btn" data-target="trucos">Trucos</button>
+      <button class="nav-btn" data-target="cronologia">Cronología</button>
+    </nav>
 
-            <!-- Sección: Build -->
-            <section id="build" class="section">
-                <h2>Build y Atributos</h2>
-                
-                <div class="stats-container">
-                    <div class="stat-card">
-                        <h3>Atributos Clave</h3>
-                        <ul>
-                            <li><strong>Fuerza:</strong> 16 (Exacto para Espada de Nito a dos manos)</li>
-                            <li><strong>Destreza:</strong> 14 (Exacto para Arco Largo)</li>
-                            <li><strong>Vitalidad:</strong> 40 (Prioridad absoluta)</li>
-                            <li><strong>Aguante:</strong> 30+ (Invierte almas restantes aquí)</li>
-                        </ul>
-                        <p class="note">⚠️ No subas Fuerza/Destreza más de lo indicado. Las almas van a supervivencia.</p>
-                    </div>
+    <main class="content">
+      <section id="inicio" class="panel active">
+        <h2>Bienvenido a Lordran</h2>
+        <p>Guía compacta para una deathless de Dark Souls 1 con un enfoque agresivo, seguridad y ruta clara.</p>
 
-                    <div class="stat-card">
-                        <h3>Equipo Principal</h3>
-                        <ul>
-                            <li>Espada del Rey del Cementerio +4</li>
-                            <li>Arco Largo +10</li>
-                            <li>Flechas Grandes x140</li>
-                            <li>Armadura de Havel (DPS puro)</li>
-                            <li>Anillo RTSR</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+        <div class="info-card">
+          <h3>Datos clave</h3>
+          <ul>
+            <li><strong>Clase:</strong> Guerrero</li>
+            <li><strong>Regalo:</strong> Llave Maestra</li>
+            <li><strong>Arma principal:</strong> Espada del Rey del Cementerio</li>
+            <li><strong>Arma secundaria:</strong> Arco Largo +10</li>
+            <li><strong>Objetivo:</strong> Deathless / Sub 2:30</li>
+          </ul>
+        </div>
+      </section>
 
-            <!-- Sección: Lista de Compras -->
-            <section id="compras" class="section">
-                <h2>Lista de Compras y Materiales</h2>
-                <div class="shop-list">
-                    <div class="shop-item">
-                        <h3>Mercader No Muerta (Acueducto)</h3>
-                        <ul>
-                            <li>1 Piedra Prisma</li>
-                            <li>1 Pastel de Bosta</li>
-                            <li>10-15 Bombas Negras (para Capra)</li>
-                        </ul>
-                    </div>
-                    <div class="shop-item">
-                        <h3>Snuggly (Refugio)</h3>
-                        <ul>
-                            <li>Intercambiar: Piedra Prisma + Pastel de Bosta</li>
-                            <li>Obtener: 2 Titanitas de Demonio (Espada a +2)</li>
-                        </ul>
-                    </div>
-                    <div class="shop-item">
-                        <h3>Brasa Grande (Large Ember)</h3>
-                        <ul>
-                            <li>Ubicación: Cofre junto al primer Carnicero en Profundidades</li>
-                            <li>Uso: André para mejorar Arco Largo a +10</li>
-                        </ul>
-                    </div>
-                    <div class="shop-item">
-                        <h3>Mercader de la Fortaleza de Sen</h3>
-                        <ul>
-                            <li>Comprar: 200 Flechas Grandes</li>
-                            <li>Comprar: Trozos de Titanita Grande</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
+      <section id="build" class="panel">
+        <h2>Build</h2>
+        <div class="two-columns">
+          <div class="info-card">
+            <h3>Atributos</h3>
+            <ul>
+              <li><strong>FUE:</strong> 16</li>
+              <li><strong>DEX:</strong> 14</li>
+              <li><strong>VIT:</strong> 40</li>
+              <li><strong>END:</strong> 30+</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Equipo</h3>
+            <ul>
+              <li>Espada del Rey del Cementerio +4</li>
+              <li>Arco Largo +10</li>
+              <li>Flechas grandes x140</li>
+              <li>Armadura de Havel</li>
+              <li>Anillo RTSR</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-            <!-- Sección: Trucos 'Queso' -->
-            <section id="trucos" class="section">
-                <h2>5 Trucos Innegociables</h2>
-                <div class="tricks-container">
-                    <div class="trick-card">
-                        <h3>1️⃣ Demonio Capra - CHEESE</h3>
-                        <p><strong>NUNCA</strong> entres a la niebla.</p>
-                        <p>Tira <strong>10-15 bombas/pasteles de bosta</strong> por encima del muro exterior hasta derrotarlo.</p>
-                    </div>
-                    <div class="trick-card">
-                        <h3>2️⃣ Profundidades - Hit & Run</h3>
-                        <p>Entra solo por la <strong>Brasa Grande del cofre</strong>.</p>
-                        <p>Inmediatamente usa <strong>Hueso de Regreso</strong>.</p>
-                    </div>
-                    <div class="trick-card">
-                        <h3>3️⃣ Lecho del Caos - Quit-Out</h3>
-                        <p>Rompe lado izquierdo con arco → Sal al menú.</p>
-                        <p>Entra → Rompe lado derecho → Sal al menú.</p>
-                        <p>Entra y salta al centro.</p>
-                    </div>
-                    <div class="trick-card">
-                        <h3>4️⃣ Nito - Estrategia Inmóvil</h3>
-                        <p>Al caer a la arena, <strong>NO te muevas</strong>.</p>
-                        <p>Espera a que Nito venga a ti para NO activar los esqueletos gigantes.</p>
-                    </div>
-                    <div class="trick-card">
-                        <h3>5️⃣ Gwyn - Queso del Pilar</h3>
-                        <p>Corre tras la columna de ceniza a la izquierda.</p>
-                        <p>Mantén la columna entre Gwyn y tú.</p>
-                        <p>Dispara ~<strong>140 Flechas Grandes</strong> con Arco Largo +10. <strong>Cero Parries.</strong></p>
-                    </div>
-                </div>
-            </section>
+      <section id="compras" class="panel">
+        <h2>Compras clave</h2>
+        <div class="two-columns">
+          <div class="info-card">
+            <h3>Acueducto</h3>
+            <ul>
+              <li>Piedra Prisma</li>
+              <li>Pastel de Bosta</li>
+              <li>10-15 Bombas Negras</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Refugio</h3>
+            <ul>
+              <li>Piedra Prisma + Pastel = 2 Titanitas de Demonio</li>
+              <li>Espada a +2</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Profundidades</h3>
+            <ul>
+              <li>Brasa Grande</li>
+              <li>Hueso de Regreso</li>
+            </ul>
+          </div>
+          <div class="info-card">
+            <h3>Fortaleza de Sen</h3>
+            <ul>
+              <li>200 flechas grandes</li>
+              <li>Trozos de Titanita Grande</li>
+            </ul>
+          </div>
+        </div>
+      </section>
 
-            <!-- Sección: Cronología -->
-            <section id="cronologia" class="section">
-                <h2>Cronología de la Ruta</h2>
-                <div class="timeline">
-                    <div class="timeline-block">
-                        <div class="timeline-marker">00:00 - 00:20</div>
-                        <h3>Bloque 1: Inicio</h3>
-                        <ul>
-                            <li>Tutorial → Enlace (coger almas del suelo)</li>
-                            <li>Sube Fuerza a 16</li>
-                            <li>Catacumbas (obtener Espada de Nito)</li>
-                            <li>Valle de Dragones (obtener Anillo RTSR)</li>
-                        </ul>
-                    </div>
+      <section id="trucos" class="panel">
+        <h2>5 trucos innegociables</h2>
+        <div class="steps">
+          <div class="step">
+            <h3>1. Capra Demon</h3>
+            <p>No entres a la niebla. Tira bombas o pastel por encima del muro exterior.</p>
+          </div>
+          <div class="step">
+            <h3>2. Profundidades</h3>
+            <p>Entra por la Brasa Grande del cofre y usa Hueso de Regreso.</p>
+          </div>
+          <div class="step">
+            <h3>3. Lecho del Caos</h3>
+            <p>Rompe lado izquierdo, sal al menú, entra y rompe lado derecho, sal y vuelve a entrar.</p>
+          </div>
+          <div class="step">
+            <h3>4. Nito</h3>
+            <p>Al caer a la arena, no te muevas. Espera a que venga a ti y evita activar los esqueletos gigantes.</p>
+          </div>
+          <div class="step">
+            <h3>5. Gwyn</h3>
+            <p>Gira por la columna de ceniza a la izquierda y usa arco largo +10 con flechas grandes.</p>
+          </div>
+        </div>
+      </section>
 
-                    <div class="timeline-block">
-                        <div class="timeline-marker">00:20 - 00:50</div>
-                        <h3>Bloque 2: Preparación Arco</h3>
-                        <ul>
-                            <li>Cuenca Tenebrosa (Arco Largo + Escudo de Hierba)</li>
-                            <li>Sube Destreza a 14</li>
-                            <li>Acueducto (Prisma, Bosta, Bombas)</li>
-                            <li>Snuggly (Espada +2)</li>
-                            <li>Capra Cheese (Bombas)</li>
-                            <li>Brasa Grande (Profundidades)</li>
-                            <li>Hueso de Regreso</li>
-                        </ul>
-                    </div>
+      <section id="cronologia" class="panel">
+        <h2>Cronología de la ruta</h2>
+        <div class="timeline">
+          <div class="time-block">
+            <span class="time">00:00 - 00:20</span>
+            <h3>Bloque 1</h3>
+            <p>Tutorial, almas del suelo, fuerza a 16, Catacumbas y Valle de Dragones.</p>
+          </div>
+          <div class="time-block">
+            <span class="time">00:20 - 00:50</span>
+            <h3>Bloque 2</h3>
+            <p>Cuenca Tenebrosa, DEX a 14, compras, Capra cheese, Brasa Grande.</p>
+          </div>
+          <div class="time-block">
+            <span class="time">00:50 - 01:45</span>
+            <h3>Bloque 3</h3>
+            <p>Gárgolas, Quelaag, Sen, Anor Londo, André, Gigante, O&S, Vasija del Señor.</p>
+          </div>
+          <div class="time-block">
+            <span class="time">01:45 - 02:15</span>
+            <h3>Bloque 4</h3>
+            <p>Sif, Cuatro Reyes, Lecho del Caos, Seath, Nito y subida de VIT/END.</p>
+          </div>
+          <div class="time-block final">
+            <span class="time">02:15 - 02:30</span>
+            <h3>Bloque 5</h3>
+            <p>Horno, ignorar caballeros negros y Gwyn tras el pilar.</p>
+          </div>
+        </div>
+      </section>
+    </main>
 
-                    <div class="timeline-block">
-                        <div class="timeline-marker">00:50 - 01:45</div>
-                        <h3>Bloque 3: Anor Londo</h3>
-                        <ul>
-                            <li>Gárgolas</li>
-                            <li>Quelaag</li>
-                            <li>Fortaleza de Sen (Comprar 200 Flechas Grandes)</li>
-                            <li>Anor Londo (obtener Titanitas de Demonio)</li>
-                            <li>André: Arco Largo a +10</li>
-                            <li>Herrero Gigante: Espada a +4</li>
-                            <li>Ornstein & Smough</li>
-                            <li>Vasija del Señor</li>
-                        </ul>
-                    </div>
+    <footer class="footer">
+      <p>Dark Souls 1 Deathless Run</p>
+      <span class="fire-symbol">🔥 Praise the Sun ☀️ 🔥</span>
+    </footer>
+  </div>
 
-                    <div class="timeline-block">
-                        <div class="timeline-marker">01:45 - 02:15</div>
-                        <h3>Bloque 4: Los 4 Señores</h3>
-                        <ul>
-                            <li>Sif</li>
-                            <li>Cuatro Reyes (Armadura de Havel a DPS puro)</li>
-                            <li>Lecho del Caos (Quit-outs)</li>
-                            <li>Seath (Duke Skip)</li>
-                            <li>Nito (Estrategia Inmóvil)</li>
-                            <li>Subir Vitalidad a 40 y Aguante a 30+</li>
-                        </ul>
-                    </div>
-
-                    <div class="timeline-block final">
-                        <div class="timeline-marker">02:15 - 02:30</div>
-                        <h3>Bloque 5: Final Deathless</h3>
-                        <ul>
-                            <li>Horno de la Llama Original</li>
-                            <li>Ignorar Caballeros Negros</li>
-                            <li>Gwyn tras el pilar con Arco Largo +10</li>
-                            <li>✨ VICTORIA DEATHLESS ✨</li>
-                        </ul>
-                    </div>
-                </div>
-            </section>
-        </main>
-
-        <!-- Footer -->
-        <footer class="footer">
-            <p>Dark Souls 1 Deathless Run - Speedrun Guide</p>
-            <p class="fire-symbol">🔥 Praise the Sun ☀️ 🔥</p>
-        </footer>
-    </div>
-
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
