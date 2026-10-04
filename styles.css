@@ -139,9 +139,9 @@ body {
 .character-card img {
   display: block;
   width: 100%;
-  aspect-ratio: 4 / 3;
+  aspect-ratio: 3 / 4;
   object-fit: cover;
-  object-position: 83% center;
+  object-position: center;
 }
 
 .character-card figcaption {
